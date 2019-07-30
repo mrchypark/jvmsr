@@ -15,6 +15,8 @@ jvms(args = "", jvms = "auto")
 jvms commend
 }
 \examples{
+\dontrun{
   jvms()
   jvms("init")
+  }
 }

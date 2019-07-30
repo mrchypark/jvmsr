@@ -7,8 +7,10 @@
 #' @importFrom zip unzip
 #' @importFrom utils download.file
 #' @export
-#' @example 
-#' download()
+#' @examples 
+#' \dontrun{
+#'   download()
+#'   }
 download <- function(path = jvms_loc(), force = F){
   if (check_jvms()&!force) {
     message("jvms already installed!")

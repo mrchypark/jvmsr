@@ -5,8 +5,10 @@
 #' @importFrom sys exec_wait
 #' @export
 #' @examples
+#' \dontrun{
 #'   jvms()
 #'   jvms("init")
+#'   }
 jvms <- function(args = "", jvms = "auto"){
   if ( jvms == "auto") {
     jvms <- jvms_binary()

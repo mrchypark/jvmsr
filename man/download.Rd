@@ -14,3 +14,8 @@ download(path = jvms_loc(), force = F)
 \description{
 download jvms binary
 }
+\examples{
+\dontrun{
+  download()
+  }
+}
