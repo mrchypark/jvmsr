@@ -1,0 +1,7 @@
+destination: docs
+title: jvmsr
+url: https://mrchypark.github.io/jvmsr
+template:
+  params:
+    bootswatch: yeti
+    ganalytics: UA-47822682-17

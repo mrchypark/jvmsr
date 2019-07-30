@@ -1,4 +1,12 @@
-
+#' jvms commend
+#' 
+#' @param args jvms args.
+#' @param jvms jvms binary location
+#' @importFrom sys exec_wait
+#' @export
+#' @examples
+#'   jvms()
+#'   jvms("init")
 jvms <- function(args = "", jvms = "auto"){
   if ( jvms == "auto") {
     jvms <- jvms_binary()
