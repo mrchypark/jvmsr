@@ -8,8 +8,7 @@
 <!-- badges: end -->
 
 
-The goal of josaplay is to provide functions to add josa in Korean text.
-It is useful with Rmarkdown.
+The goal of jvmsr is to provide R wrapper of JDK Version Manager (JVMS) for Windows.
 
 ## Installation
 
